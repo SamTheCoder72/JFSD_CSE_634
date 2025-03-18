@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Clone</title>
+  <link rel="stylesheet" href="linkedin.css">
+</head>
+<body>
+  <header>
+    <div class="logo">LinkedIn</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Network</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Messaging</a></li>
+        <li><a href="#">Notifications</a></li>
+        <li><a href="#">Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="profile.jpg" alt="Profile Picture">
+        <h3>Your Name</h3>
+        <p>Position</p>
+      </div>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Connections</a></li>
+        <li><a href="#">Groups</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <div class="post-box">
+        <textarea placeholder="Start a post..."></textarea>
+        <button>Post</button>
+      </div>
+
+      <div class="feed">
+        <div class="post">
+          <h3>John Doe</h3>
+          <p>This is a sample LinkedIn post content.</p>
+          <div class="post-actions">
+            <button>Like</button>
+            <button>Comment</button>
+            <button>Share</button>
+          </div>
+        </div>
+
+        <div class="post">
+          <h3>Jane Smith</h3>
+          <p>This is another sample post content.</p>
+          <div class="post-actions">
+            <button>Like</button>
+            <button>Comment</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Right Sidebar (Optional) -->
+    <aside class="right-sidebar">
+      <h3>News & Events</h3>
+      <p>Stay updated with the latest industry news and events happening around you.</p>
+    </aside>
+  </div>
+
+  <script src="linkedin.js"></script>
+</body>
+</html>
